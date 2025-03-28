@@ -1,8 +1,8 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+} 
 /*
 body{
     background-color:rgb(206, 206, 206) ;
@@ -44,8 +44,8 @@ body {
   
   .products {
     max-width: 1000px;
-    margin: auto;
-    padding: 0 2rem 0;
+    margin: 2rem;
+    padding: 0 2rem 0 2rem;
     text-align: center;
   }
   
@@ -66,17 +66,19 @@ body {
 }
 
 .model-container {
-    /* margin-top: 2rem; */
+   
+    width: 90%;
+    max-width: 600px;
+    /* min-width: 250px; */
+    height: 40vh;
+    min-height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: white;
     border: 2px solid #ccc;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     padding: 20px;
-    width: 60%;
-    max-width: 800px;
-    height: 500px;
     margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }

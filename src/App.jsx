@@ -25,8 +25,8 @@ function App() {
         <OrbitControls 
             enablePan={false} 
             enableRotate={true} 
-            enableZoom={false} 
-            minPolarAngle={Math.PI / 2} 
+            enableZoom={true} 
+            // minPolarAngle={Math.PI / 2} 
             maxPolarAngle={Math.PI / 2} 
             minAzimuthAngle={-Math.PI } 
             maxAzimuthAngle={Math.PI} 
@@ -35,7 +35,7 @@ function App() {
           <ASSET/>
         </Suspense>
         <Environment preset='sunset'/>
-        <ContactShadows position={[0, -1, 0]} opacity={0.5} scale={20} blur={1} far={10} resolution={256} color="#000000" />
+        <ContactShadows position={[0, -1, 0]} opacity={0.5} scale={20} blur={1} far={15} resolution={256} color="#000000" />
        </Canvas>
       </div>
     </section>
