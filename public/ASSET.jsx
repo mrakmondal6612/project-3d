@@ -10,7 +10,7 @@ export default function Model(props) {
   const { nodes, materials } = useGLTF('/ASSET.gltf')
   return (
     <group {...props} dispose={null}>
-      <mesh geometry={nodes.polySurface2.geometry} material={materials.MAT} scale={12}/>
+      <mesh geometry={nodes.polySurface2.geometry} material={materials.MAT} scale={18}/>
     </group>
   )
 }

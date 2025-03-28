@@ -33,6 +33,7 @@ body {
     padding: 2rem;
     background: #005a87;
     color: white;
+    margin-bottom: 2rem;
   }
   
   .model-section {
@@ -62,3 +63,19 @@ body {
     color: #fff;
     margin-top: 2rem;
 }
+
+.model-container {
+    /* margin-top: 2rem; */
+    background-color: white;
+    border: 2px solid #ccc;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 20px;
+    width: 60%;
+    max-width: 800px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
