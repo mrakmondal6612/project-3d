@@ -39,7 +39,7 @@ function App() {
        </Canvas>
       </div>
     </section>
-       <div className='products '>
+      <div className='products '>
         <h1>
           Plumbing
         </h1>
@@ -49,8 +49,8 @@ function App() {
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia debitis autem animi facere suscipit assumenda impedit, sint magnam quis repellendus error dolore, maiores neque qui blanditiis quaerat, aliquid excepturi libero?
         </p>
-       </div>
-       <section className="products ">
+      </div>
+      <section className="products ">
         <h2>Our Top Products</h2>
         <ProductList />
       </section>
