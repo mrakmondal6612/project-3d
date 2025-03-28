@@ -25,7 +25,7 @@ function App() {
         <OrbitControls 
             enablePan={false} 
             enableRotate={true} 
-            enableZoom={true} 
+            enableZoom={false} 
             minPolarAngle={Math.PI / 2} 
             maxPolarAngle={Math.PI / 2} 
             minAzimuthAngle={-Math.PI } 
