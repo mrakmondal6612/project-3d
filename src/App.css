@@ -1,8 +1,8 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 /*
 body{
     background-color:rgb(206, 206, 206) ;
@@ -33,18 +33,19 @@ body {
     padding: 2rem;
     background: #005a87;
     color: white;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
   }
   
   .model-section {
     width: 100%;
     height: 500px;
+    padding: 2rem;
   }
   
   .products {
     max-width: 1000px;
     margin: auto;
-    padding: 2rem;
+    padding: 0 2rem 0;
     text-align: center;
   }
   
